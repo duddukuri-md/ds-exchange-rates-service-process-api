@@ -1,0 +1,27 @@
+{
+  "configs": [
+    "ds-exchange-rates-service-process-api.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "com.mycompany:ds-exchange-rates-service-process-api:1.0.0-SNAPSHOT",
+  "minMuleVersion": "4.4.0",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [
+        "com.currency.utils"
+      ],
+      "exportedResources": [
+        "log4j2.xml",
+        "application-types.xml",
+        "ds-exchange-rates-service-process-api.xml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
