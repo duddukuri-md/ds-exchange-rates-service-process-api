@@ -1,6 +1,6 @@
 # ds-exchange-rates-service-process-api
 
-****Use Case: Currency Exchange with MuleSoft****
+****Use Case: Currency Exchange via MuleSoft Service****
 
 **Overview**
 
@@ -18,7 +18,7 @@ In this use case, we have implemented a currency exchange service that allows us
 
 This currency exchange service is implemented with the following components:
 
-  1. **Scheduled Maintenance:** A MuleSoft scheduler logic runs daily at 5 AM (New York time) to clear stale exchange rates. This ensures the service stays up to date with the latest currency conversion data.
+  1. **Scheduled Maintenance:** A MuleSoft scheduler logic runs daily at 5 AM (New York time) to clear stale exchange rates. 
   
   2. **API Endpoints:** Three MuleSoft API endpoints are exposed to facilitate currency exchange operations:
 
